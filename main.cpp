@@ -4,6 +4,11 @@ using namespace std;
 
 int main ()
 {
-	cout << "Hello World";
+	string nome;
+	
+	
+	cout << "Digite seu nome:";
+	cin >> nome;
+	cout << "Seja bem vindo " << nome;
 	return 0;
 }
